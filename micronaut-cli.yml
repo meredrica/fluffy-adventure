@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: dispatch
+testFramework: junit
+sourceLanguage: kotlin
+buildTool: gradle_kotlin
+features: [app-name, graalvm, gradle, http-client, junit, kotlin, kotlin-application, logback, management, netty-server, rabbitmq, readme, shade, testcontainers, yaml]
