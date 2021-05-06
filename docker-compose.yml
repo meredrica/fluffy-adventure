@@ -1,0 +1,12 @@
+version: '3'
+services:
+  dispatch:
+    image: dispatch:latest
+    depends_on:
+      - rabbitmq
+    restart: always
+  rabbitmq:
+    image: rabbitmq:3.8.9-management-alpine
+    ports:
+      - 15672:15672
+      - 5672:5672

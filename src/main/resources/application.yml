@@ -5,6 +5,4 @@ micronaut:
 rabbitmq:
   host: rabbitmq
   port: 5672
-  username: user
-  password: pass
   virtual-host: /
